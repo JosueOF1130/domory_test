@@ -12,10 +12,9 @@ import SwiftUI
 @main
 struct DomoryApp: App {
 	
-//	track if user 
     var body: some Scene {
         WindowGroup {
-            OnboardingView() // <-- Your initial screen
+			RootView()
         }
     }
 }
