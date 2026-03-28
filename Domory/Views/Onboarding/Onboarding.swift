@@ -26,13 +26,13 @@ struct OnboardingView: View {
 			VStack {
 				VStack(alignment: .leading, spacing: 4) {
 					Text("Retain")
-						.font(.heading(weight: .bold))
+						.font(.customHeading(weight: .bold))
 						.foregroundStyle(Color.App.primaryText)
 					Text("brain power with")
-						.font(.heading(weight: .light))
+						.font(.customHeading(weight: .light))
 						.foregroundStyle(Color.App.primaryText)
-					Text("\(Text("Quick").font(.heading(weight: .bold))) exercises")
-						.font(.heading(weight: .light))
+					Text("\(Text("Quick").font(.customHeading(weight: .bold))) exercises")
+						.font(.customHeading(weight: .light))
 						.foregroundStyle(Color.App.primaryText)
 				}
 				.frame(maxWidth: .infinity, alignment: .leading)

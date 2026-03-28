@@ -62,7 +62,7 @@ extension Font {
 
 /* Predetermined fonts we can use with the ability to override */
         // Space grotesk
-        static func heading(weight: Font.Weight = .bold, family: Family = .spaceGrotesk) -> Font {
+        static func customHeading(weight: Font.Weight = .bold, family: Family = .spaceGrotesk) -> Font {
 			customFont(.heading, weight: weight, family: family)
         }
 

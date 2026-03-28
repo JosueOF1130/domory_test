@@ -35,10 +35,10 @@ struct SoundPermissionView: View {
 
 				VStack(alignment: .leading, spacing: 4) {
 					Text("Sound makes")
-						.font(.heading(weight: .regular))
+						.font(.customHeading(weight: .regular))
 						.foregroundStyle(Color.App.primaryText)
 					Text("games better.")
-						.font(.heading(weight: .bold))
+						.font(.customHeading(weight: .bold))
 						.foregroundStyle(Color.App.primaryText)
 				}
 				.padding(20)

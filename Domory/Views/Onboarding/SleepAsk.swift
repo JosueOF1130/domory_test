@@ -35,10 +35,10 @@ struct SleepAskView: View {
 
 				VStack(alignment: .leading, spacing: 4) {
 					Text("Sleep affects")
-						.font(.heading(weight: .light))
+						.font(.customHeading(weight: .light))
 						.foregroundStyle(Color.App.primaryText)
 					Text("your memory.")
-						.font(.heading(weight: .bold))
+						.font(.customHeading(weight: .bold))
 						.foregroundStyle(Color.App.primaryText)
 				}
 				.padding(20)

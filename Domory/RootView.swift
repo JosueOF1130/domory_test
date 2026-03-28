@@ -60,8 +60,7 @@ struct RootView: View {
 })	
 		}
 		else {
-//			HomeView()
-			Text("home")
+			HomeView()
 		}
 
 	}
